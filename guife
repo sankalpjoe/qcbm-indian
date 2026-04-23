@@ -1,6 +1,3 @@
-Here is the converted Markdown version of your guide, optimized for clarity and scannability.
-
----
 
 ## 1. The Heavy Hitters (For Logic & Math)
 
@@ -61,8 +58,8 @@ The only way to get 100% accuracy with CSVs is to stop the LLM from "reading" th
 2.  **Validation:** *"Cross-reference that index with the total number of entries found. If they do not match, re-scan the file in chunks of 500."*
 3.  **Final Count:** *"Only after verifying the last index, provide the final row count."*
 
-### **How to "Bypass" Truncation**
-* **Chunking:** *"Analyze rows 1-900 first, then 901-1900. Summarize each chunk separately, then combine the totals."*
+### **How to "counter" Truncation**
+* **Chunking:** *"Analyze rows x-y first, then y-z. Summarize each chunk separately, then combine the totals."*
 * **Metadata Check:** *"Before analyzing the content, tell me the exact file size in KB and the total line count according to the file system."*
 
 ---
