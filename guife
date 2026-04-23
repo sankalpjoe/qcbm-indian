@@ -1,35 +1,4 @@
 
-## 1. The Heavy Hitters (For Logic & Math)
-
-### **GPT 5.2 (OpenAI)**
-* **Best for:** Pure Mathematics & Spreadsheets.
-* **Why:** It holds the perfect 100% score on the AIME 2025 (American Invitational Math Exam). If you need an absolute row count or financial modeling without a single error, GPT 5.2 in "Pro" or "Thinking" mode is the gold standard.
-* **The Catch:** It has a smaller context window (400k) compared to Gemini, so it might struggle with massive multi-gigabyte files.
-
-### **Gemini 3.1 Pro (Google)**
-* **Best for:** Massive Context & "No Truncation" Research.
-* **Why:** It fixed the infamous "output truncation" bug. It’s the highest scorer on abstract reasoning (ARC-AGI-2).
-* **The Catch:** It’s slower than Flash. Use this when the CSV is huge and you need the AI to "hold" the entire 1M+ token dataset in active memory without losing focus on the bottom of the file.
-
-### **Claude Opus 4.6**
-* **Best for:** Complex Coding & Multi-Agent Workflows.
-* **Why:** It’s the "Engineer’s Model." It has the highest output ceiling (128k tokens), meaning it can write an entire corrected version of your file back to you without stopping.
-* **The Catch:** Most expensive and sometimes "over-thinks" simple counting tasks.
-
----
-
-## 2. The Speedsters (For Volume & Vision)
-
-### **Gemini 3 Flash**
-* **Best for:** General Workhorse Tasks & Speed.
-* **Why:** Surprisingly, it actually beats the Pro version in terminal-based coding benchmarks this year. It’s the "budget" choice that doesn't feel budget.
-* **The Catch:** It uses "Modular Thinking," so if you don't set it to "High" or "Max" reasoning, it might take a shortcut and guess your row count (giving you that rounded 1000).
-
-### **Gemini Flash (Text & Vision)**
-* **Best for:** Visual Data & Charts.
-* **Why:** It uses **Agentic Vision**. If you upload a screenshot of a spreadsheet or a complex PDF chart, it doesn't just "look" at it—it uses Python to zoom in, crop, and verify pixel-level details.
-
----
 
 ## 3. Recommended "Verification Mode" Setup
 
